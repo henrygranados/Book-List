@@ -10,6 +10,7 @@ body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 87.5%;
 	width: 960px;
+	height: 400px;
 	margin: 0 auto;
 	border: 3px solid blue;
 }
@@ -30,11 +31,11 @@ h2 {
 	cursor: pointer;
 }
 h2.plus {
-	background: url(images/plus.png) no-repeat left center;	
+	background: url(../images/plus.png) no-repeat left center;	
 	text-decoration: underline;
 }
 h2.minus {
-	background: url(images/minus.png) no-repeat left center;
+	background: url(../images/minus.png) no-repeat left center;
 }
 div.closed {
 	display: none;
